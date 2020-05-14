@@ -30,7 +30,7 @@ url: localhost:8000/api/project/
         "results": [
             {
                 "id": 1,
-                "name": "牛顿元组标记",
+                "name": "三元组标记",
                 "description": "百度Ai比赛数据"
             },
             {
@@ -47,7 +47,7 @@ url:localhost:8000/api/project/1
 返回结果：
     {
         "id": 1,
-        "name": "牛顿元组标记",
+        "name": "三元组标记",
         "description": "百度Ai比赛数据"
     }
 
@@ -57,7 +57,7 @@ url: localhost:8000/api/project/
 json data:
 {
     "id": 1,
-    "name": "牛顿元组标记",
+    "name": "三元组标记",
     "description": "百度Ai比赛数据"
 }
 
@@ -66,13 +66,9 @@ method: post
 url: localhost:8000/api/project/1
 json data:
     {
-        "spider_name": "google_spider",
-        "start_url": "https:www.google.com/",
-        "headers": "",
-        "proxy_type": "",
-        "is_broad_spider": false,
-        "list_xpath": "",
-        "allow_domains": ""
+        "id": 1,
+        "name": "三元组标记modify",
+        "description": "百度Ai比赛数据modify"
     }
 
 # 删除id 为1的project 
