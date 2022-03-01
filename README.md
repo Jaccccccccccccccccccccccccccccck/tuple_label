@@ -16,7 +16,7 @@
         }
     }
 ```
-安装python3，pip3后安装依赖运行
+安装python3.8，pip3后安装依赖运行
 ```
 pip3 install -r requirements.txt
 # 建立本地库
