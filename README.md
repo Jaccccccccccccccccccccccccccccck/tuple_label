@@ -1,7 +1,22 @@
 # tuple_label
 标注服务的后台
 
-运行
+手动创建一个mysql数据库并修改项目的配置文件
+```
+1.手动创建一个mysql的数据库，名为tuple_lable
+2.把项目路径下的tuple_table/settings.py中的mysql数据库的用户名、密码进行修改
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.mysql",
+            "NAME": "tuple_label",
+            "USER": "xxx",
+            "PASSWORD": "xxx",
+            "HOST": "localhost",
+            "PORT": 3306,
+        }
+    }
+```
+安装python3，pip3后安装依赖运行
 ```
 pip3 install -r requirements.txt
 # 建立本地库
