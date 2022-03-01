@@ -90,8 +90,3 @@ json data:
 method: delete
 url:localhost:8000/api/project/1
 ```
-
-更新requirements.txt
-```
-pipreqs --force . # 更新依赖 
-```
