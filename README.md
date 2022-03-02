@@ -1,7 +1,7 @@
 # tuple_label
 标注服务的后台
 
-手动创建一个mysql数据库并修改项目的配置文件
+本地安装mysql并手动创建一个mysql数据库并修改项目的配置文件
 ```
 1.手动创建一个mysql的数据库，名为tuple_lable
 2.把项目路径下的tuple_table/settings.py中的mysql数据库的用户名、密码进行修改
@@ -18,6 +18,7 @@
 ```
 安装python3.8，pip3后安装依赖运行
 ```
+#在本项目根目录下运行安装python的依赖包
 pip3 install -r requirements.txt
 # 建立本地库
 python3 manage.py makemigrations
